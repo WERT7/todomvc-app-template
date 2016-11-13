@@ -2,7 +2,6 @@
 	'use strict';
 
 	var ENTER_CODE = 13;
-	var NEW_ITEM_TEMPLATE
 
 	var textBox = document.querySelector('input');
 	var todoList = document.querySelector('.todo-list');
@@ -14,8 +13,5 @@
 		}
 	});
 
-	import { getCompletedItem } from 'utils/Timplater';
-
-	console.log(getCompletedItem('zzz'));
 
 })(window);
