@@ -5,7 +5,7 @@
 class Todo {
 	constructor(title) {
 		this.title = title;
-		this.state = states.active;
+		this.state = Todo.states.active;
 	}
 
 	static get states() {
@@ -16,11 +16,11 @@ class Todo {
 	}
 
 	complete() {
-		this.state = states.completed;
+		this.state = Todo.states.completed;
 	}
 
 	activate() {
-		this.state = states.active;
+		this.state = Todo.states.active;
 	}
 
 	rename(new_title) {
@@ -28,3 +28,4 @@ class Todo {
 	}
 }
 
+module.exports = Todo;

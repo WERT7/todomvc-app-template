@@ -32,4 +32,4 @@ function getCompletedItem(title) {
 module.exports = {
 	getNewActiveItem,
 	getCompletedItem
-}
+};
